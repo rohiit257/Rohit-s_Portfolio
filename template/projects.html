@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    {% load static %}
+    <link rel="icon" type="image/x-icon" href="{% static 'port/favicon.ico' %}">
+
+    <link rel="stylesheet" href="{% static 'port/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Saira+Extra+Condensed&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav id="hom">
+        <button class="menu-btn">&#9776; </button>
+        <div class="left">
+            <h>Projects</h>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a  href="{% url 'index' %}" >Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'projects' %}">Projects</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+
+        <section id="project" class="prj">
+
+            <ul>
+                <li>
+                    <h2>Mangement system</h2>
+                    <p>A Mangement system devloped using python framework django.I WORKED ON VALIDATIONS AND REPORT
+                        UNDER MY MENTOR
+                        <BR>
+                        FRONTEND-HTML,CSS,JS,BOOTSTRAP <br>backend-python,django <br>database-sql
+                        <br>api-ajax,jquery</BR>
+
+                    </p>
+                    <div class="project-links">
+
+                        <button class="project-btn">GitHub</button>
+                    </div>
+                </li>
+                <li>
+                    <h2>Portfolio</h2>
+                    <p>interactive and reponsive designed portfolio for devlopers
+                        <BR>FRONTEND-HTML,css,js</BR>
+                    </p>
+                    <div class="project-links">
+
+                        <button class="project-btn">GitHub</button>
+                    </div>
+                </li>
+                <li>
+                    <h2>PyGame</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, modi.</p>
+                    <div class="project-links">
+
+                        <button class="project-btn">GitHub </button>
+                    </div>
+                </li>
+            </ul>
+            
+    </main>
+</body>
+
+</html>

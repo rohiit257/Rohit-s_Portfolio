@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    {% load static %}
+    <link rel="icon" type="image/x-icon" href="{% static 'port/favicon.ico' %}">
+
+    <link rel="stylesheet" href="{% static 'port/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Saira+Extra+Condensed&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav id="hom">
+        <button class="menu-btn">&#9776; </button>
+        <div class="left">
+            <h>Contact</h>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a  href="{% url 'index' %}" >Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'projects' %}">Projects</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+
+
+    </main>
+    <section class="contact" id="Contact">
+
+
+        <div class="left1">
+            <h>Connect with me </h>
+        </div>
+        <div class="right1">
+            <ul>
+                <li><a href="https://github.com/rohiit257">GITHUB</a></li>
+                <li><a href="https://www.linkedin.com/in/rohit-shahi-152661253/">LINKEDIN</a></li>
+                <li><a href="https://twitter.com/rohitdebugbugs">X</a></li>
+                <li><a href="">INSTAGRAM</a></li>
+                <li><a href="{% url 'forms' %}">Contact Me</a></li>
+            </ul>
+
+        </div>
+</section>
+</body>
+</html>

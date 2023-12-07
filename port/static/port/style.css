@@ -1,0 +1,880 @@
+@font-face {
+  font-family: "ClashDisplay-Regular";
+  src: url("../fonts/ClashDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Regular.woff") format("woff"),
+    url("../fonts/ClashDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: transparent transparent; /* Track and handle color */
+
+}
+
+body {
+  overflow: -moz-scrollbars-none;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em; /* Adjust as needed */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Adjust as needed */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent; /* Adjust as needed */
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #d2f65a;
+
+  height: 82.182px;
+  flex-shrink: 0;
+  color: black;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #161513;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  margin-right: 15px;
+  display: flex;
+}
+
+nav ul li:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+
+
+
+
+.left {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #161513;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  margin-right: 15px;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+
+}
+
+.conto{
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: 6px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  margin-right: 15px;
+  
+}
+
+.conto:hover {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+.buttons{
+  display: flex;
+  padding: 15px;
+  margin-left: 40px;
+  
+}
+
+.btn{
+  margin-right: 10px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: 4px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  margin-right: 15px;
+  background-color: #000000;
+  border-color:#ffffff;
+  margin-right:15px;
+  padding-left: 10p;
+  
+  
+  
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+
+body1{
+  background-color: #ffffff;
+}
+
+hr{
+  border-color: #d2f65a;
+  margin-top: 30px;
+  background-color: #ffffff;
+  margin: 40px 84px;
+}
+
+.abt{
+  margin: auto;
+  max-width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  height: auto;
+  margin-right: 10px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: 6px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  
+  background-color: #000000;
+  border-color:#ffffff;
+  margin-right:15px;
+  padding-left: 10p;
+  margin:auto;
+  margin-bottom:15px;
+  margin-top:20px;
+  
+
+}
+
+.abt:hover {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.abt p{
+  margin-top: 20px;
+  font-size:1;
+}
+
+.container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: #000000;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.container .skill-box {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.skill-box .title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.skill-box .skill-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar .skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background:#d2f65a;
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+
+.skill-per.html {
+   /*progreso de las diferentes lenguajes*/
+  width: 65%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.css {
+         /*progreso de las diferentes lenguajes*/
+  width: 50%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.javascript {
+      /*progreso de las diferentes lenguajes*/
+  width: 50%;
+  animation-delay: 0.2s;
+}
+
+.skill-per.nodejs {
+      /*progreso de las diferentes lenguajes*/
+  width: 70%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.py {
+      /*progreso de las diferentes lenguajes*/
+  width: 69%;
+  animation-delay: 0.3s;
+}
+.skill-per.dj {
+      /*progreso de las diferentes lenguajes*/
+  width: 55%;
+  animation-delay: 0.3s;
+}
+.skill-per.dsaa {
+      /*progreso de las diferentes lenguajes*/
+  width: 70%;
+  animation-delay: 0.3s;
+}
+.skill-per.git {
+      /*progreso de las diferentes lenguajes*/
+  width: 50%;
+  animation-delay: 0.3s;
+}
+
+
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.contact ul li a{
+  text-decoration: none;
+  color: #fffdfd;
+}
+
+.card3 {
+  position: relative;
+  width: 12.5em;
+  height: 7.5em;
+  background: white;
+  transition: .4s ease-in-out;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  overflow: hidden;
+}
+
+.heading, .details {
+  position: relative;
+  color: black;
+  transition: .4s ease-in-out;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+.details {
+  font-size: 0.6em;
+  padding-top: 1.5em;
+  padding-left: 2em;
+}
+
+.btn1, .btn2 {
+  position: relative;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-size: 0.6em;
+  border-radius: 10px;
+  transition: .4s ease-in-out;
+  font-weight: bold;
+}
+
+.btn1 {
+  padding-left: 6.9em;
+  padding-right: 6.9em;
+  padding-top: 0.8em;
+  padding-bottom: 0.85em;
+  left: 2.6em;
+  top: 14.8em;
+}
+
+.btn2 {
+  padding-left: 5.1em;
+  padding-right: 5.1em;
+  padding-top: 0.8em;
+  padding-bottom: 0.85em;
+  left: 2.6em;
+  top: 15.5em;
+}
+
+.btn1:hover, .btn2:hover {
+  background-color: limegreen;
+  cursor: pointer;
+}
+
+.glasses {
+  position: relative;
+  top: -4em;
+  left: 9.5em;
+  width: 70px;
+  height: 70px;
+  transition: .4s ease-in-out;
+}
+
+.card3:hover {
+  width: 12.5em;
+  height: 23em;
+  transform: translateY(1.25em);
+}
+
+.card3:hover + .glasses {
+  transform: rotateX(360deg);
+  height: 100px;
+  width: 100px;
+  left: 3em;
+  top: -18em;
+}
+
+.card3:hover .heading {
+  transform: translateY(7em) translateX(2.3em);
+}
+
+.card3:hover .details {
+  transform: translateY(13em) translateX(3.5em);
+}
+
+.prj ul{
+  margin-top: 20px;
+  
+  
+}
+
+.prj ul li{
+  list-style-type: none;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.prj ul li:hover {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.prj{
+  height:max-content;
+  background-color:#000000;
+
+}
+
+footer{
+  background-color:#000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  
+
+  height: auto;
+  flex-shrink: 0;
+  color: rgb(255, 246, 246);
+ 
+}
+
+.project-btn{
+
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fffcfc;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  margin-right: 15px;
+  display: flex;
+  background-color: #000000;
+}
+
+.project-btn:hover {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+.contact ul {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: rgb(0, 0, 0);
+
+  height: 82.182px;
+  flex-shrink: 0;
+  color: rgb(0, 0, 0);
+}
+.contact ul li{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact ul li {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  margin-right: 15px;
+  display: flex;
+  margin-top:45px;
+}
+
+.contact ul li:hover {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.contact h{
+  color: #ffffff;
+  
+}
+
+.left1{
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style-type: none;
+  margin-right: 15px;
+  display: flex;
+  margin-top:45px;
+}
+
+
+
+
+
+.contact{
+  height: 50px;
+  margin-bottom: 50px;
+  
+}
+
+
+
+/* Add this to your existing CSS or create a new style.css file */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Existing CSS */
+
+/* Add this at the end of your existing CSS */
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust the base font size for smaller screens */
+  }
+
+  nav {
+    height: auto;
+    
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+    display: block;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .btn {
+    margin: 10px 0;
+  }
+
+  .first {
+    flex-direction: column;
+    margin: 30px 10px;
+  }
+
+  .conto {
+    font-size: 30px;
+    margin-right: 0;
+  }
+
+  .prj ul {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .prj ul li {
+    margin: 10px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .left,
+  .left1 {
+    font-size: 14px;
+  }
+
+  .heading,
+  .details {
+    font-size: 14px;
+  }
+
+  .btn1,
+  .btn2 {
+    font-size: 14px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+  }
+
+  .glasses {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card3:hover {
+    width: 12.5em;
+    height: 18em;
+    transform: translateY(1em);
+  }
+
+  .card3:hover + .glasses {
+    height: 70px;
+    width: 70px;
+    left: 1em;
+    top: -14em;
+  }
+
+  .card3:hover .heading {
+    transform: translateY(5em) translateX(1.5em);
+  }
+
+  .card3:hover .details {
+    transform: translateY(10em) translateX(2.5em);
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .skill-box .title,
+  .skill-per {
+    font-size: 12px;
+  }
+
+  .contact ul li {
+    margin: 10px 0;
+  }
+
+  .contact h {
+    font-size: 14px;
+  }
+}
+
+/* End of responsive styles */
+
+
+
+/* Add this to your existing CSS */
+.menu-btn {
+  display: none; /* Hide the button by default on larger screens */
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #161513;
+}
+
+/* Update the media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide the navigation menu by default on smaller screens */
+  }
+
+  .menu-btn {
+    display: block; /* Show the button on smaller screens */
+  }
+
+  /* Add styles to position and style the mobile menu */
+  nav {
+    position: relative;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 60px; /* Adjust as needed to avoid overlapping with other content */
+    left: 0;
+    width: 100%;
+    background-color: #d2f65a;
+    z-index: 1;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0;
+  }
+}
+
+/* Update the media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  nav {
+    position: relative;
+    height: 60.182px;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 60px; /* Adjust as needed to avoid overlapping with other content */
+    left: 0;
+    width: 100%;
+    background-color: #d2f65a;
+    z-index: 1;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0;
+  }
+
+  .left {
+    position: absolute;
+    top: 10px; /* Adjust as needed to align with the top of the navigation bar */
+    right: 10px;
+  }
+}
