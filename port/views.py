@@ -1,4 +1,6 @@
 from django.shortcuts import render,HttpResponse
+from django.views.decorators.csrf import csrf_exempt
+
 
 # Create your views here.
 def index(request):
@@ -18,5 +20,21 @@ def forms(request):
 
 
 
+from .models import ContactForm
 
-# views.py
+
+@csrf_exempt
+
+def submit_form(request):
+    if request.method == 'POST':
+        
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        message = request.POST.get('message')
+
+        ContactForm.objects.create(name=name, email=email, message=message)
+
+        return HttpResponse('Form submitted successfully!')
+    else:
+        return render(request, 'forms.html')
+

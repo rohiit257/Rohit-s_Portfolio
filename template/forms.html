@@ -2,8 +2,12 @@
 <link rel="stylesheet" href="forms.css">
 <link rel="stylesheet" href="{% static 'port/forms.css' %}">
 <div class="container">  
-    <form id="contact" action="" method="post">
-      <h3>Contact Me</h3>
+    <form id="contact" action="{% url 'submit_form' %}" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+
+      <h3>Colorlib Contact Form</h3>
+      <h4>Contact us for custom quote</h4>
       <fieldset>
         <input placeholder="Your name" type="text" tabindex="1" required autofocus>
       </fieldset>
@@ -17,5 +21,6 @@
       <fieldset>
         <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
       </fieldset>
+      <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
     </form>
   </div>
